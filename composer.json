@@ -1,0 +1,8 @@
+{
+	"name":"basilio/vaga",
+	"autoload":{
+		"psr-4":{
+			"App\\":"app/"
+		}
+	}
+}
