@@ -4,10 +4,10 @@
 	
 	use \App\Entity\Vaga;
 
-	if (!isset($_GET['id']) or !is_numeric($_GET['id'])) {
-		header('location: index.php?status=error');
-		exit;
-	}
+//	if (!isset($_GET['id']) or !is_numeric($_GET['id'])) {
+//		header('location: index.php?status=error');
+//		exit;
+//	}
 
 	$oVaga = Vaga::getVaga($GET['id']);
 
